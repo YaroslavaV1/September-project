@@ -1,24 +1,37 @@
+:root {
+  --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
 .hero-section {
   background: #f9f7fe;
   padding: 200px;
 }
 h1 {
-  font-family: "Playfair Display", serif;
-  font-weight: bold;
+  font-family: var(--heading-font-family);
+  font-weight: 700;
   font-size: 96px;
   line-height: 127.97px;
   text-align: center;
 }
 h2 {
-  font-family: "Poppins";
+  font-family: var(--default-font-family);
   font-size: 24px;
-  font-weight: 400;
+  font-weight: normal;
   line-height: 36px;
   text-align: center;
   color: #272142;
 }
+.paragraph {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+  font-weight: lighter;
+  color: #272142;
+  margin: 70px;
+}
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font-family);
   font-weight: 700;
   font-size: 36px;
   line-height: 54px;
@@ -32,8 +45,56 @@ p {
   border: none;
   padding: 18px 30px;
   border-radius: 4px;
-  font-family: "Poppins";
-  font-weight: 500;
+  font-family: var(--default-font-family);
+  font-weight: 400;
   font-size: 18px;
   text-align: center;
+}
+.main-images {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.main-header {
+  font-family: var(--heading-font-family);
+  font-size: 62px;
+  line-height: 1;
+  text-align: left;
+}
+.main-paragraph {
+  font-family: var(--default-font-family);
+  font-size: 16px;
+  opacity: 70%;
+  font-weight: 100;
+  line-height: 2.5;
+  display: flex;
+  text-align: start;
+}
+.view-details-button {
+  display: flex;
+  color: var(--branding-color);
+  background: white;
+  border: 1px solid;
+  padding: 18px 30px;
+  border-radius: 4px;
+  font-family: var(--default-font-family);
+  font-weight: 400;
+  font-size: 18px;
+  text-align: start;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 64px;
+    line-height: 1;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .hero-section {
+    padding: 130px 30px;
+  }
+  .main-section {
+    padding-left: 20px;
+  }
 }
