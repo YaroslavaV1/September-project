@@ -157,4 +157,9 @@ p {
   .about-paragraph {
     text-align: center;
   }
+  .main-header {
+    text-align: center;
+    font-size: 46px;
+    line-height: 1.5;
+  }
 }
