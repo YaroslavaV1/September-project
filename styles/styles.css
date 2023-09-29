@@ -117,6 +117,15 @@ p {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+.work-paragraph {
+  font-family: var(--default-font-family);
+  font-size: 14px;
+  font-weight: lighter;
+  line-height: 1.5;
+}
+.h2-work {
+  font-weight: bold;
+}
 @media (max-width: 600px) {
   h1 {
     font-size: 64px;
