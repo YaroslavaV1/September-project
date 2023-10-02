@@ -38,8 +38,6 @@ p {
   text-align: center;
 }
 .get-started-button {
-  margin: 0 auto;
-  display: flex;
   color: white;
   background: #6c63ff;
   border: none;
@@ -126,6 +124,39 @@ p {
 .h2-work {
   font-weight: bold;
 }
+.contact-container {
+  border: 1px solid;
+  border-color: #f9f7fe;
+  background-color: #f9f7fe;
+  padding: 30px;
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-top: 186px;
+  margin-bottom: 78px;
+  border-radius: 20px;
+}
+.contact-paragraph {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+  font-weight: 100;
+  opacity: 70%;
+}
+.contact-heading {
+  font-family: var(--heading-font-family);
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.main-header {
+  margin-top: 130px;
+  text-align: left;
+  margin-left: 130px;
+}
+.links {
+  color: black;
+  font-weight: lighter;
+  font-size: 24px;
+}
 @media (max-width: 600px) {
   h1 {
     font-size: 64px;
@@ -161,5 +192,13 @@ p {
     text-align: center;
     font-size: 46px;
     line-height: 1.5;
+    margin: 30px;
+  }
+  .contact-container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .links {
+    font-size: 18px;
   }
 }
