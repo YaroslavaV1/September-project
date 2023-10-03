@@ -4,9 +4,32 @@
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
+nav {
+  padding: 20px;
+}
+nav li {
+  display: inline;
+  list-style: none;
+}
+nav a {
+  color: #272142;
+  opacity: 70%;
+  margin-left: 15px;
+  font-size: 16px;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+.active {
+  color: var(--branding-color);
+  text-decoration: none;
+  font-weight: bolder;
+}
+.logo-image {
+  max-height: 40px;
+}
 .hero-section {
   background: #f9f7fe;
-  padding: 200px;
+  padding: 200px 100px;
 }
 h1 {
   font-family: var(--heading-font-family);
@@ -150,7 +173,6 @@ p {
   line-height: 1.2;
 }
 .main-header {
-  margin-top: 130px;
   text-align: left;
 }
 .links {
