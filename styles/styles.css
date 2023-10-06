@@ -102,7 +102,10 @@ p {
   font-family: var(--default-font-family);
   font-weight: 400;
   font-size: 18px;
-  text-align: start;
+}
+.view-details-a,
+.view-details-a:hover {
+  color: var(--branding-color);
 }
 .about-heading {
   font-size: 64px;
@@ -154,7 +157,7 @@ p {
   border-color: #f9f7fe;
   background-color: #f9f7fe;
   padding: 30px;
-  margin-top: 186px;
+  margin-top: 78px;
   margin-bottom: 78px;
   border-radius: 20px;
 }
@@ -234,13 +237,16 @@ p {
   }
   .main-header {
     text-align: left;
-    font-size: 46px;
+    font-size: 43px;
     line-height: 1.5;
     margin: 30px 0px;
+    justify-content: center !important;
+  }
+  .main-paragraph {
+    text-align: center !important;
   }
   .contact-container {
     max-width: 90%;
-    margin: 0 auto;
   }
   .contact-heading {
     font-size: 40px;
@@ -251,5 +257,11 @@ p {
   }
   .links {
     font-size: 18px;
+  }
+  .contact-container-work {
+    padding: 0 !important;
+  }
+  .view-details-button {
+    margin: 0 auto;
   }
 }

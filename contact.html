@@ -39,26 +39,62 @@
     <title>Contact page</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <img src="/images/logo.png" class="logo-image d-none d-lg-block" />
+        <img
+          src="/images/small-logo.png"
+          class="logo-image d-block d-lg-none"
+          alt="SheCodes Logo"
+        />
+        <ul class="mb-0 d-flex align-items-center">
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li>
+            <a href="/about.html" title="About page">About</a>
+          </li>
+          <li><a href="/work.html" title="Work page">Work</a></li>
+          <li class="active">
+            <a href="/contact.html" title="Contact page">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <h1 class="main-header mt-5 text-center">Let's get in touch</h1>
     <div class="container contact-container">
       <div class="row">
-        <div class="col-md-6 pl-5">
+        <div class="col-md-6 pl-5 contact-container-work">
           <h2 class="contact-heading contact-h2">Work Inquiry</h2>
           <p class="contact-paragraph text-left">Let's work together</p>
         </div>
-        <div class="col-md-6 d-flex justify-content-center align-items-center">
-          <button class="get-started-button">Let's talk here</button>
+        <div class="col-md-6 d-flex align-items-center">
+          <button class="get-started-button">
+            <a href="mailto:patricia@gmail.com" class="text-white"
+              >Let's talk here</a
+            >
+          </button>
         </div>
       </div>
     </div>
     <p class="m-0">
-      <a class="links" href="mailto:patricia@gmail.com">patricia@gmail.com</a>
+      <a class="links" href="mailto:patricia@gmail.com" title="Email link"
+        >patricia@gmail.com</a
+      >
     </p>
     <p class="m-0">
-      <a class="links" href="https://twitter.com" target="_blank">Twitter</a>
+      <a
+        class="links"
+        href="https://twitter.com"
+        target="_blank"
+        title="Twitter link"
+        >Twitter</a
+      >
     </p>
-    <p class="m-0">
-      <a class="links" href="https://instagram.com" target="_blank"
+    <p class="mt-0 mb-5">
+      <a
+        class="links"
+        href="https://instagram.com"
+        target="_blank"
+        title="Instagram link"
         >Instagram</a
       >
     </p>

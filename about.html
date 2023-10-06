@@ -39,6 +39,24 @@
     <title>About me page</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <img src="/images/logo.png" class="logo-image d-none d-lg-block" />
+        <img
+          src="/images/small-logo.png"
+          class="logo-image d-block d-lg-none"
+          alt="SheCodes Logo"
+        />
+        <ul class="mb-0 d-flex align-items-center">
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li class="active">
+            <a href="/about.html" title="About page">About</a>
+          </li>
+          <li><a href="/work.html" title="Work page">Work</a></li>
+          <li><a href="/contact.html" title="Contact page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="container about-section">
       <div class="row align-items-center">
         <div class="col-lg-6">
@@ -52,12 +70,65 @@
             everything is well explained, homework and deadlines are good for
             keep focus
           </p>
-          <button class="see-my-projects">See my projects</button>
+          <button class="see-my-projects">
+            <a href="/work.html" target="_blank" class="text-white"
+              >See my projects</a
+            >
+          </button>
         </div>
         <div class="col-lg-6">
           <img class="img-fluid" src="images/cwgI-patricia.png" />
         </div>
       </div>
+    </div>
+    <div class="container contact-container">
+      <div class="row">
+        <div class="col-md-6 pl-5 contact-container-work">
+          <h2 class="contact-heading contact-h2">Work Inquiry</h2>
+          <p class="contact-paragraph text-left">Let's work together</p>
+        </div>
+        <div class="col-md-6 d-flex justify-content-center align-items-center">
+          <button class="get-started-button">
+            <a
+              href="mailto:patricia@gmail.com"
+              class="text-white"
+              title="Email Patricia"
+              >Let's talk here</a
+            >
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-5">
+      <a
+        href="mailto:patricia@gmail.com"
+        class="email-link"
+        title="Email Patricia"
+        >patricia@gmail.com</a
+      >
+    </div>
+    <div class="icons d-flex justify-content-center mb-5 mt-5">
+      <a
+        href="https://www.facebook.com/"
+        target="_blank"
+        title="Facebook Profile"
+      >
+        <i class="fa-brands fa-facebook m-3"> </i>
+      </a>
+      <a
+        href="https://www.twitter.com/"
+        target="_blank"
+        title="Twitter Profile"
+      >
+        <i class="fa-brands fa-twitter m-3"></i>
+      </a>
+      <a
+        href="https://www.instagram.com/"
+        target="_blank"
+        title="Instagram Profile"
+      >
+        <i class="fa-brands fa-instagram m-3"></i>
+      </a>
     </div>
   </body>
 </html>

@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Patricia is a front-end developer based in Portugal"
+    />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
@@ -36,7 +40,7 @@
       src="https://kit.fontawesome.com/77246f3e62.js"
       crossorigin="anonymous"
     ></script>
-    <title>September project</title>
+    <title>Front-end developer Patricia</title>
   </head>
   <body>
     <div class="container">
@@ -45,12 +49,13 @@
         <img
           src="/images/small-logo.png"
           class="logo-image d-block d-lg-none"
+          alt="SheCodes Logo"
         />
         <ul class="mb-0 d-flex align-items-center">
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active"><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About page">About</a></li>
+          <li><a href="/work.html" title="Work page">Work</a></li>
+          <li><a href="/contact.html" title="Contact page">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -63,11 +68,15 @@
       >
     </div>
     <p class="paragraph">Showing my featured projects</p>
-    <div class="pl-3">
+    <div class="">
       <div class="container mt-5 mb-5">
         <div class="row align-items-center">
           <div class="col d-none d-lg-block">
-            <img class="img-fluid main-images" src="images/yoghurt.png" />
+            <img
+              class="img-fluid main-images"
+              src="images/yoghurt.png"
+              alt="Yoghurt Project"
+            />
           </div>
           <div class="col">
             <h2 class="main-header mb-5 d-flex justify-content-start">
@@ -82,7 +91,9 @@
             <button
               class="view-details-button d-flex justify-content-start mt-5"
             >
-              View project details
+              <a href="/work.html" target="_blank" class="view-details-a"
+                >View project details</a
+              >
             </button>
           </div>
         </div>
@@ -102,18 +113,28 @@
             <button
               class="view-details-button d-flex justify-content-start mt-5"
             >
-              View project details
+              <a href="/work.html" target="_blank" class="view-details-a"
+                >View project details</a
+              >
             </button>
           </div>
           <div class="col d-none d-lg-block">
-            <img class="img-fluid main-images" src="images/weather.png" />
+            <img
+              class="img-fluid main-images"
+              src="images/weather.png"
+              alt="Weather Project"
+            />
           </div>
         </div>
       </div>
       <div class="container mt-5 mb-5">
         <div class="row align-items-center">
           <div class="col d-none d-lg-block">
-            <img class="img-fluid main-images" src="images/dictionary.png" />
+            <img
+              class="img-fluid main-images"
+              src="images/dictionary.png"
+              alt="Dictionary Project"
+            />
           </div>
           <div class="col">
             <h2 class="main-header mb-5 d-flex justify-content-start">
@@ -128,37 +149,64 @@
             <button
               class="view-details-button d-flex justify-content-start mt-5"
             >
-              View project details
+              <a
+                href="/work.html#dictionary"
+                target="_blank"
+                class="view-details-a"
+                >View project details</a
+              >
             </button>
           </div>
         </div>
       </div>
       <div class="container contact-container">
         <div class="row">
-          <div class="col-md-6 pl-5">
+          <div class="col-md-6 pl-5 contact-container-work">
             <h2 class="contact-heading contact-h2">Work Inquiry</h2>
             <p class="contact-paragraph text-left">Let's work together</p>
           </div>
           <div
             class="col-md-6 d-flex justify-content-center align-items-center"
           >
-            <button class="get-started-button">Let's talk here</button>
+            <button class="get-started-button">
+              <a
+                href="mailto:patricia@gmail.com"
+                class="text-white"
+                title="Email Patricia"
+                >Let's talk here</a
+              >
+            </button>
           </div>
         </div>
       </div>
       <div class="text-center mt-5">
-        <a href="mailto:patricia@gmail.com" class="email-link"
+        <a
+          href="mailto:patricia@gmail.com"
+          class="email-link"
+          title="Email Patricia"
           >patricia@gmail.com</a
         >
       </div>
       <div class="icons d-flex justify-content-center mb-5 mt-5">
-        <a href="https://www.facebook.com/" target="_blank">
+        <a
+          href="https://www.facebook.com/"
+          target="_blank"
+          title="Facebook Profile"
+        >
           <i class="fa-brands fa-facebook m-3"> </i>
         </a>
-        <a href="https://www.twitter.com/" target="_blank">
+        <a
+          href="https://www.twitter.com/"
+          target="_blank"
+          title="Twitter Profile"
+        >
           <i class="fa-brands fa-twitter m-3"></i>
         </a>
-        <a href="https://www.instagram.com/" target="_blank">
+        <a
+          href="https://www.instagram.com/"
+          target="_blank"
+          title="Instagram Profile"
+        >
           <i class="fa-brands fa-instagram m-3"></i>
         </a>
       </div>
