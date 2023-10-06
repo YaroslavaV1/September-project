@@ -204,6 +204,10 @@ p {
   transition: all 100ms ease-in-out;
   cursor: pointer;
 }
+.github-link {
+  font-size: 18px;
+  font-weight: lighter;
+}
 @media (max-width: 600px) {
   h1 {
     font-size: 64px;
